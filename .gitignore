@@ -1,0 +1,9 @@
+/ParticleBuilder.sdf
+*.obj
+*.tlog
+*.log
+*.pdb
+*.exp
+*.dll
+*.ilk
+*.opensdf

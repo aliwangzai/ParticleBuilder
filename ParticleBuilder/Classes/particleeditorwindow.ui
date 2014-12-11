@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ParticleEditorWindow</class>
+ <widget class="QMainWindow" name="ParticleEditorWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1040</width>
+    <height>689</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonTextUnderIcon</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QWidget" name="name_cocownd" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>320</width>
+        <height>482</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>1234789</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <zorder>tabWidget</zorder>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="currentIndex">
+       <number>2</number>
+      </property>
+      <property name="elideMode">
+       <enum>Qt::ElideNone</enum>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Start Color</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QGroupBox" name="name_startColor">
+          <property name="maximumSize">
+           <size>
+            <width>123465</width>
+            <height>300</height>
+           </size>
+          </property>
+          <property name="title">
+           <string>Start Color</string>
+          </property>
+          <widget class="QPushButton" name="btn_startColor">
+           <property name="geometry">
+            <rect>
+             <x>180</x>
+             <y>40</y>
+             <width>21</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(80, 80, 80);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="name_startColorVar">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>300</height>
+           </size>
+          </property>
+          <property name="title">
+           <string>Start Color Var</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>End Color</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QGroupBox" name="name_endColor">
+          <property name="maximumSize">
+           <size>
+            <width>123456</width>
+            <height>300</height>
+           </size>
+          </property>
+          <property name="title">
+           <string>End Color</string>
+          </property>
+          <widget class="QPushButton" name="btn_endColor">
+           <property name="geometry">
+            <rect>
+             <x>180</x>
+             <y>40</y>
+             <width>21</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(80, 80, 80);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="name_endColorVar">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>300</height>
+           </size>
+          </property>
+          <property name="title">
+           <string>End Color Var</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>Background</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QGroupBox" name="name_bgColorVar">
+          <property name="title">
+           <string>Background Color</string>
+          </property>
+          <widget class="QPushButton" name="btn_bgColor">
+           <property name="geometry">
+            <rect>
+             <x>180</x>
+             <y>40</y>
+             <width>21</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(80, 80, 80);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="title">
+           <string>Background Image</string>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+          <widget class="QPushButton" name="changeButton">
+           <property name="geometry">
+            <rect>
+             <x>100</x>
+             <y>20</y>
+             <width>71</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Change</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_bg">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>30</y>
+             <width>91</width>
+             <height>71</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(179, 179, 179);
+border:2px solid gray;
+border-radius:10px;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="removeButton">
+           <property name="geometry">
+            <rect>
+             <x>100</x>
+             <y>50</y>
+             <width>71</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Hide/Show</string>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="box_move">
+           <property name="geometry">
+            <rect>
+             <x>130</x>
+             <y>80</y>
+             <width>71</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Move</string>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget_2">
+   <property name="minimumSize">
+    <size>
+     <width>260</width>
+     <height>116</height>
+    </size>
+   </property>
+   <property name="features">
+    <set>QDockWidget::DockWidgetFloatable|QDockWidget::DockWidgetMovable</set>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::AllDockWidgetAreas</set>
+   </property>
+   <property name="windowTitle">
+    <string>Particle Properties</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_2">
+    <layout class="QVBoxLayout" name="verticalLayout_5">
+     <item>
+      <widget class="QFrame" name="name_particleProperties">
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget00">
+   <property name="minimumSize">
+    <size>
+     <width>131</width>
+     <height>130</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>524287</width>
+     <height>130</height>
+    </size>
+   </property>
+   <property name="features">
+    <set>QDockWidget::DockWidgetFloatable|QDockWidget::DockWidgetMovable</set>
+   </property>
+   <property name="windowTitle">
+    <string>Particle Texture</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>2</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_5">
+    <widget class="QFrame" name="frame_2">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>10</y>
+       <width>101</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>128</width>
+       <height>128</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(179, 179, 179);
+border:2px solid gray;
+border-radius:10px;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Panel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Sunken</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="name_textureImage">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>64</width>
+          <height>64</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(80, 80, 80);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>80</y>
+       <width>20</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>20</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+ QPushButton {
+	border:2px solid gray;
+     border-radius: 10px;
+
+
+ }
+ QPushButton:pressed {
+     border:2px solid black;
+ }</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget_7">
+   <property name="minimumSize">
+    <size>
+     <width>280</width>
+     <height>95</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>524287</width>
+     <height>95</height>
+    </size>
+   </property>
+   <property name="features">
+    <set>QDockWidget::DockWidgetFloatable|QDockWidget::DockWidgetMovable</set>
+   </property>
+   <property name="windowTitle">
+    <string>Blend Function</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_7">
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QFrame" name="name_blendFunc">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>80</height>
+        </size>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <property name="horizontalSpacing">
+         <number>2</number>
+        </property>
+        <property name="verticalSpacing">
+         <number>0</number>
+        </property>
+        <item row="0" column="1">
+         <widget class="QComboBox" name="name_blendsrc">
+          <item>
+           <property name="text">
+            <string extracomment="0">GL_ZERO</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string extracomment="1">GL_ONE</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>GL_SRC_COLOR</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>GL_ONE_MINUS_SRC_COLOR</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>GL_SRC_ALPHA</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>GL_ONE_MINUS_SRC_ALPHA</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>GL_DST_COLOR</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>GL_ONE_MINUS_DST_COLOR</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>GL_DST_ALPHA</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>GL_ONE_MINUS_DST_ALPHA</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>GL_SRC_ALPHA_SATURATE</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QPushButton" name="name_blendNormal">
+          <property name="maximumSize">
+           <size>
+            <width>60</width>
+            <height>123465</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Normal</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QPushButton" name="name_blendAdditive">
+          <property name="maximumSize">
+           <size>
+            <width>60</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Additive</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QComboBox" name="name_blenddst">
+          <item>
+           <property name="text">
+            <string>GL_ZERO</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>GL_ONE</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>GL_SRC_COLOR</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>GL_ONE_MINUS_SRC_COLOR</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>GL_SRC_ALPHA</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>GL_ONE_MINUS_SRC_ALPHA</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>GL_DST_COLOR</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>GL_ONE_MINUS_DST_COLOR</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>GL_DST_ALPHA</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>GL_ONE_MINUS_DST_ALPHA</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>GL_SRC_ALPHA_SATURATE</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>Src</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_2">
+          <property name="maximumSize">
+           <size>
+            <width>30</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Dst:</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget_5">
+   <property name="minimumSize">
+    <size>
+     <width>250</width>
+     <height>158</height>
+    </size>
+   </property>
+   <property name="features">
+    <set>QDockWidget::DockWidgetFloatable|QDockWidget::DockWidgetMovable</set>
+   </property>
+   <property name="windowTitle">
+    <string>Particle Emitter Properties</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>2</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_8">
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <item>
+      <widget class="QFrame" name="frame">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string>Emitter Type</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="name_eimitterType">
+          <item>
+           <property name="text">
+            <string>Gravity</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Radial</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="name_emitter_type">
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="name_emitterPosition">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

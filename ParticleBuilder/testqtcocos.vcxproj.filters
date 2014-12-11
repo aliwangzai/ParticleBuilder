@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{6059cc75-e5b3-4f49-be6b-1998a0552768}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{300a45bd-2bfd-4e2d-bb2a-96918d43cc5a}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\Cocos">
+      <UniqueIdentifier>{b13942aa-cc63-4da1-82c3-8965b22f43bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CCQTBase">
+      <UniqueIdentifier>{19d6475c-ea84-4600-9871-46009eaa6cf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Thirdlib">
+      <UniqueIdentifier>{759d82fd-ce6a-4a4d-9eed-c69d59c428f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Qt">
+      <UniqueIdentifier>{774bd766-d13d-4bec-8274-8251d748455e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CCQApplication.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CCQApplication.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CCQGLWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CCQGLWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\CCQApplication.cpp">
+      <Filter>Source Files\CCQTBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\CCQGLView.cpp">
+      <Filter>Source Files\CCQTBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\CCQGLWidget.cpp">
+      <Filter>Source Files\CCQTBase</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_application.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dialog_about.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dialog_about.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\dialog_savetexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dialog_savetexture.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dialog_savetexture.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\entitymanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\particleeditorwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_particleeditorwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_particleeditorwindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\ParticleProperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qpropertylineeditor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qpropertylineeditor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qpropertylineeditorfactory.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qpropertylineeditorfactory.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qpropertylineeditorgroup.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qpropertylineeditorgroup.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qsliderlineeditor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qsliderlineeditor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\AppDelegate.cpp">
+      <Filter>Source Files\Cocos</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Cocos</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\dialog_about.cpp">
+      <Filter>Source Files\Qt</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\flowlayout.cpp">
+      <Filter>Source Files\Qt</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\qpropertylineeditor.cpp">
+      <Filter>Source Files\Qt</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\qpropertylineeditorfactory.cpp">
+      <Filter>Source Files\Qt</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\qpropertylineeditorgroup.cpp">
+      <Filter>Source Files\Qt</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\qsliderlineeditor.cpp">
+      <Filter>Source Files\Qt</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\MainScene.cpp">
+      <Filter>Source Files\Cocos</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="testqtcocos.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\CCQGLWidget.h">
+      <Filter>Source Files\CCQTBase</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\CCQApplication.h">
+      <Filter>Source Files\CCQTBase</Filter>
+    </CustomBuild>
+    <CustomBuild Include="application.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\dialog_savetexture.h">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\particleeditorwindow.h">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\dialog_about.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\dialog_savetexture.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\particleeditorwindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\qpropertylineeditor.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\qsliderlineeditor.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\dialog_about.h">
+      <Filter>Source Files\Qt</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\qsliderlineeditor.h">
+      <Filter>Source Files\Qt</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\qpropertylineeditor.h">
+      <Filter>Source Files\Qt</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\qpropertylineeditorfactory.h">
+      <Filter>Source Files\Qt</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\qpropertylineeditorgroup.h">
+      <Filter>Source Files\Qt</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_testqtcocos.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\CCQGLView.h">
+      <Filter>Source Files\CCQTBase</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dialog_about.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dialog_savetexture.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\entitymanager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_particleeditorwindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\ParticleProperties.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qpropertylineeditor.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qsliderlineeditor.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\AppDelegate.h">
+      <Filter>Source Files\Cocos</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\flowlayout.h">
+      <Filter>Source Files\Qt</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\MainScene.h">
+      <Filter>Source Files\Cocos</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\zconf.h">
+      <Filter>Source Files\Thirdlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\zlib.h">
+      <Filter>Source Files\Thirdlib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\copy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\cut.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\new.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\open.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\paste.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\save.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\saveas.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\about.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\delete.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\play.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\clear.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\example.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
