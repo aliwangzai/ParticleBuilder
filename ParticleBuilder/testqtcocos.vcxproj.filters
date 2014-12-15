@@ -202,95 +202,91 @@
     <CustomBuild Include="Classes\qpropertylineeditorgroup.h">
       <Filter>Source Files\Qt</Filter>
     </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="GeneratedFiles\ui_testqtcocos.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Classes\CCQGLView.h">
+    <CustomBuild Include="Classes\entitymanager.h">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\ParticleProperties.h">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\AppDelegate.h">
+      <Filter>Source Files\Cocos</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\MainScene.h">
+      <Filter>Source Files\Cocos</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\CCQGLView.h">
       <Filter>Source Files\CCQTBase</Filter>
-    </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_dialog_about.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_dialog_savetexture.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Classes\entitymanager.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_particleeditorwindow.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Classes\ParticleProperties.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_qpropertylineeditor.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_qsliderlineeditor.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Classes\AppDelegate.h">
-      <Filter>Source Files\Cocos</Filter>
-    </ClInclude>
-    <ClInclude Include="Classes\flowlayout.h">
+    </CustomBuild>
+    <CustomBuild Include="Classes\zconf.h">
+      <Filter>Source Files\Thirdlib</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\zlib.h">
+      <Filter>Source Files\Thirdlib</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Classes\flowlayout.h">
       <Filter>Source Files\Qt</Filter>
-    </ClInclude>
-    <ClInclude Include="Classes\MainScene.h">
-      <Filter>Source Files\Cocos</Filter>
-    </ClInclude>
-    <ClInclude Include="Classes\zconf.h">
-      <Filter>Source Files\Thirdlib</Filter>
-    </ClInclude>
-    <ClInclude Include="Classes\zlib.h">
-      <Filter>Source Files\Thirdlib</Filter>
-    </ClInclude>
+    </CustomBuild>
+    <CustomBuild Include="images\about.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="images\clear.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="images\copy.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="images\cut.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="images\delete.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="images\example.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="images\icon.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="images\new.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="images\open.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="images\paste.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="images\play.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="images\save.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="images\saveas.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\ui_dialog_about.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\ui_dialog_savetexture.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\ui_particleeditorwindow.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\ui_qpropertylineeditor.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\ui_qsliderlineeditor.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\ui_testqtcocos.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="app.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="images\copy.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="images\cut.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="images\new.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="images\open.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="images\paste.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="images\save.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="images\saveas.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="images\about.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="images\icon.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="images\delete.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="images\play.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="images\clear.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="images\example.png">
-      <Filter>Resource Files</Filter>
-    </Image>
   </ItemGroup>
 </Project>

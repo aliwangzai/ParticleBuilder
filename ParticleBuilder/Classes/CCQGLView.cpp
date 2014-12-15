@@ -63,6 +63,7 @@ CCQGLView * CCQGLView::Create(float w, float h )
 	s_pMainWindow->_window->setMaximumSize(960, 640);
     s_pMainWindow->_window->show();
 
+	//glfwInit();
 	s_pMainWindow->setDesignResolutionSize(width, height, ResolutionPolicy::EXACT_FIT);
 	s_pMainWindow->initGlew();
 

@@ -10,6 +10,13 @@ CCQGLWidget::CCQGLWidget(int width, int height, QWidget *parent)
 	, wheelFunc(nullptr)
 	, keyEventFunc(nullptr)
 {
+	////////////////////////FOR - opengl error :missing opengl version /////////////////////////////////////
+	QGLFormat format;
+	//format.setVersion(QGLFormat::OpenGL_ES_Version_2_0, QGLFormat::OpenGL_ES_Version_2_0);
+	format.setVersion(1, 1);
+	format.setDoubleBuffer(true);
+	///////////////////////////////////////////////////////////////////////////
+	setFormat(format);
     resize(width, height);
 }
 
